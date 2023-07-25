@@ -6784,11 +6784,11 @@ input Post_title_operator {
 }
 
 input Post_category_operator {
-  equals: [String]
-  not_equals: [String]
-  in: [[String]]
-  not_in: [[String]]
-  all: [[String]]
+  equals: String
+  not_equals: String
+  in: [String]
+  not_in: [String]
+  all: [String]
   exists: Boolean
 }
 
@@ -7766,11 +7766,11 @@ input versionsPost_version__title_operator {
 }
 
 input versionsPost_version__category_operator {
-  equals: [String]
-  not_equals: [String]
-  in: [[String]]
-  not_in: [[String]]
-  all: [[String]]
+  equals: String
+  not_equals: String
+  in: [String]
+  not_in: [String]
+  all: [String]
   exists: Boolean
 }
 
