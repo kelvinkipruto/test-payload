@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-use-before-define
 import React from 'react';
 import { ElementButton } from 'payload/components/rich-text';
-import Icon from '../Icon';
+import Icon from '../Icon/index';
 
 const baseClass = 'rich-text-large-body-button';
 
