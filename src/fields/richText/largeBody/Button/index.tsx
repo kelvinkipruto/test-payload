@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-use-before-define
 import React from 'react';
 import { ElementButton } from 'payload/components/rich-text';
-import Icon from '../Icon/index';
+// import Icon from '../Icon/index';
 
 const baseClass = 'rich-text-large-body-button';
 
@@ -11,7 +11,7 @@ const ToolbarButton: React.FC<{ path: string }> = () => (
     className={baseClass}
     format="large-body"
   >
-    <Icon />
+    {/* <Icon /> */}
   </ElementButton>
 );
 
