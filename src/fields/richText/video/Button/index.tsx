@@ -6,7 +6,7 @@ import { ReactEditor, useSlate } from 'slate-react';
 import { ElementButton } from 'payload/components/rich-text';
 import { Form, Select, Text, Submit } from 'payload/components/forms';
 import { MinimalTemplate, Button, X } from 'payload/components';
-import VideoIcon from '../Icon';
+// import VideoIcon from '../Icon';
 
 import './index.scss';
 
@@ -77,7 +77,7 @@ const VideoButton: React.FC<{ path: string }> = ({ path }) => {
           setRenderModal(true)
         }}
       >
-        <VideoIcon />
+        {/* <VideoIcon /> */}
       </ElementButton>
       {renderModal && (
         <Modal

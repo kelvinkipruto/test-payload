@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React, { useEffect, useState } from 'react';
 import { useFocused, useSelected } from 'slate-react';
-import VideoIcon from '../Icon';
+// import VideoIcon from '../Icon';
 
 import './index.scss';
 
@@ -50,7 +50,7 @@ const Element = props => {
 			/>)}
 			<div className={`${baseClass}__wrap`}>
 				<div className={`${baseClass}__label`}>
-					<VideoIcon />
+					{/* <VideoIcon /> */}
 					<div className={`${baseClass}__title`}>
 						{title}
 					</div>
